@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 30px;
+}
+.top {
+color: black;
+font-size: 35px;
+}
+span {
+    color: #1E3E62;
+}
+.parent-container {
+    display: flex;
+    gap : 100px;
+    margin: 30px
+}
+.child-container {
+    display: flex;
+    gap: 10px;
+    border: 2px solid red;
+    padding-bottom: 5px;
+}
+.child-container p {
+    margin: 15px;
+}
+
